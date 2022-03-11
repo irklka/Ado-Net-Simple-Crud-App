@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNetSimpleCrud", "AdoNetSimpleCrud\AdoNetSimpleCrud.csproj", "{B17BE583-9BA1-439E-BE61-F989C7A85DC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNetSimpleCrudTests", "AdoNetSimpleCrudTests\AdoNetSimpleCrudTests.csproj", "{031FBB5A-10A7-462F-B541-96761DC90A9C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B17BE583-9BA1-439E-BE61-F989C7A85DC9} = {B17BE583-9BA1-439E-BE61-F989C7A85DC9}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B17BE583-9BA1-439E-BE61-F989C7A85DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17BE583-9BA1-439E-BE61-F989C7A85DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17BE583-9BA1-439E-BE61-F989C7A85DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17BE583-9BA1-439E-BE61-F989C7A85DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{031FBB5A-10A7-462F-B541-96761DC90A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{031FBB5A-10A7-462F-B541-96761DC90A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{031FBB5A-10A7-462F-B541-96761DC90A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{031FBB5A-10A7-462F-B541-96761DC90A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10DEA1D7-5510-423E-A66A-7EAFA0C1B999}
+	EndGlobalSection
+EndGlobal
